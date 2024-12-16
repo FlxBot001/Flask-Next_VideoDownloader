@@ -1,0 +1,81 @@
+# Node.js / Next.js specific
+node_modules/
+.next/
+out/
+*.log
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+*.cache/
+*.lock
+dist/
+coverage/
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Python specific
+*.py[cod]
+__pycache__/
+*.so
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+env.bak/
+*.env
+
+# Byte-compiled files
+*.pyc
+*.pyo
+
+# Python cache
+__pycache__/
+.python_history
+migrations/
+
+# Logs and dumps
+*.log
+*.pid
+*.err
+*.out
+*.prof
+
+# Flask or Django specific
+instance/
+*.sqlite3
+db.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+!/.well-known/
+
+# Local OS or Editor-specific
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
