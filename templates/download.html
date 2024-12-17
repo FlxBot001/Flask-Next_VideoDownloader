@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Downloader</title>
+        <Link rel="preconnet" href="https://fonts.googleapis.com" />
+        <Link rel="preconnet" href="https://fonts.gstatic.com crossorigin" />
+        <Link 
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"
+        />
+        <style>
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+            .cover {
+                text-align: center;
+            }
+            .cover-decription {
+                margin-bottom: 20px;
+            }
+            .cover-button {
+                padding: 10px 20px;
+                border: none;
+                background: green;
+                color: white;
+                cursor: pointer;
+            }
+            .cover-input {
+                padding: 10px 20px;
+                width: 40%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <h3>Video Downloader</h3>
+        </nav>
+        <div class="cover">
+            <h2 class="cover-title">
+                Online Video Downloader for free
+            </h2>
+            <div class="cover-description">
+                Best of all Video Downloader for free
+            </div>
+            <form action="/download" method="post">
+                <input 
+                    type="text" 
+                    name="video_url"
+                    class="cover-input"
+                    placeholder="Paste Link here"
+                />
+                <button 
+                    type="submit" 
+                    class="cover-button"
+                >
+                    Download
+                </button>
+            </form>
+        </div>
+        <div>
+            <h2>
+                {{video_data['title']}}
+            </h2>
+            {{video_data}}
+        </div>
+
+
+    </body>
+</html>
